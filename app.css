@@ -1,0 +1,110 @@
+
+body{
+    background-color: black;
+    animation:intro;
+    animation-duration: 4s;
+    scroll-behavior: smooth;
+
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+   }
+
+.show{
+    color:white;
+    animation:font;
+    animation-duration: 3s;
+}
+
+.bullet{
+    margin: auto;
+    text-decoration: none;
+}
+
+.selfie{
+    width: 220px;
+    height: 300px;
+}
+
+.self{
+    text-align: center;
+}
+
+.projectphoto{
+    width:250px;
+    height:250px;
+}
+
+
+
+
+.first{
+    height:100vh;
+    width:100vw;
+    background-image: url("https://www.teahub.io/photos/full/42-424486_milky-way-wallpaper-4k.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .first::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.25);
+} */
+
+
+h1{
+    margin-bottom: 100px;
+}
+.name{
+    position: relative;
+    text-align: end;
+    margin-right: 10%;
+}
+
+.blockquote{
+    margin-top: 50px;
+}
+
+.techskill{
+    margin-top: 10px;
+}
+
+
+
+.sub-ending{
+    text-align: center;
+}
+
+
+.contact{
+    text-decoration: none !important;
+    color: aqua;
+}
+
+
+.contact:hover{
+    filter: brightness(1.5);
+}
+
+@keyframes intro{
+    from {background-color: white;}
+    to {background-color: black;}
+
+}
+
+
+@keyframes font{
+    from {color: black;}
+    to {color: white;}
+
+}
